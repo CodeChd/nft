@@ -4,13 +4,13 @@
 
 </h2>Desktop View</h2>
 
-![](../public/images/nft-desktop.png)
+![](./public/images/nft-desktop.png)
 
 <br><br>
 
 </h2>Mobile View</h2>
 
-![](../public/images/nft-Mobile.png)
+![](./public/images/nft-Mobile.png)
 
 ### Links
 
