@@ -8,8 +8,12 @@ function App() {
       <main className='nft-content'>
 
         <article className='nft-card'>
-    
-          <img className="equilibrium-img" src="/images/image-equilibrium.jpg" alt="nft-equilibrium" />
+
+          <div className="nft-img-container">
+            <img className="equilibrium-img" src="/images/image-equilibrium.jpg" alt="nft-equilibrium" />
+            <img className="view" src="/images/icon-view.svg" alt="nft-view" />
+            <div className="overlay"/>
+          </div>
 
           <div className="nft-info">
 
