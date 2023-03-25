@@ -2,20 +2,21 @@
   min-height: 100vh;
   display: grid;
   place-content: center;
+  padding-inline: 1rem;
   background-color: var(--Very-dark-blue-bg);
+  color: var( --Soft-blue);
 }
 
-.icon-mod{
-  height: 30px;
-}
 
 .nft-content{
   margin: 0 auto;
   padding: 3rem 3.5rem 6rem 3.5rem;
   border-radius: 35px;
-  background-color:hsl(217, 54%, 10.55%); 
+  background-color:hsl(217, 54%, 10.55%);
+}
 
-
+.equilibrium-img{
+  border-radius: 10px;
 }
 
 .nft-card{
@@ -27,3 +28,59 @@
   box-shadow: 0px 35px 0px 20px hsl(217, 54%, 9.77%);
 }
 
+
+.nft-info{
+  margin-block: 1.8rem;
+  border-bottom: 2px solid;
+  padding-bottom: 1.5rem;
+  border-color: var(--Very-dark-blue-line);
+}
+
+
+.nft-heading{
+  font-size: 1.6rem;
+  color: var( --White);
+}
+.nft-paragraph{
+  margin-block: 1.5rem;
+}
+
+
+
+.nft-icons{
+  display: flex;
+}
+.icon-mod{
+  height: 30px;
+}
+.clock{
+  margin-left: auto;
+}
+
+
+.clock-text{
+  margin-left: 0.5rem;
+}
+.ethereum-text{
+  margin-left: 0.5rem;
+  color: var(--Cyan);
+}
+
+
+
+.nft-profile{
+  display: flex;
+  align-items: center;
+}
+.nft-profile img{
+  height: 40px;
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: var(--White);
+}
+.nft-profile p{
+  margin-left: 1rem;
+}
+.author{
+  color: var(--White);
+}

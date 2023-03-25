@@ -8,17 +8,17 @@ function App() {
       <main className='nft-content'>
 
         <article className='nft-card'>
-
-          <img src="/images/image-equilibrium.jpg" alt="nft-equilibrium" />
+    
+          <img className="equilibrium-img" src="/images/image-equilibrium.jpg" alt="nft-equilibrium" />
 
           <div className="nft-info">
 
-            <p>Equilibrium #3429</p>
-            <p>Our Equilibrium collection promotes balance and calm</p>
+            <p className='nft-heading'>Equilibrium #3429</p>
+            <p className='nft-paragraph'>Our Equilibrium collection promotes balance and calm.</p>
 
             <div className="nft-icons">
-              <img className="icon-mod" src="/images/icon-clock.svg" alt="" /> <p>0.041 ETH</p>
-              <img className="icon-mod" src="/images/icon-ethereum.svg" alt="" /> <p>3 days left</p>
+              <img className="icon-mod ethereum" src="/images/icon-ethereum.svg" alt="" /> <p className='ethereum-text'>0.041 ETH</p>
+              <img className="icon-mod clock" src="/images/icon-clock.svg" alt="" /> <p className='clock-text'>3 days left</p>
             </div>
 
           </div>
@@ -26,7 +26,7 @@ function App() {
           <div className="nft-profile">
 
             <img src="/images/image-avatar.png" alt="avatar" />
-            <p>Creation of Jules Wyvern</p>
+            <p>Creation of <span className='author'>Jules Wyvern</span></p>
           </div>
 
         </article>
