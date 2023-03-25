@@ -1,0 +1,29 @@
+.App{
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: var(--Very-dark-blue-bg);
+}
+
+.icon-mod{
+  height: 30px;
+}
+
+.nft-content{
+  margin: 0 auto;
+  padding: 3rem 3.5rem 6rem 3.5rem;
+  border-radius: 35px;
+  background-color:hsl(217, 54%, 10.55%); 
+
+
+}
+
+.nft-card{
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: var(--Very-dark-blue-card);
+  padding: 1.8rem;
+  border-radius: 15px;
+  box-shadow: 0px 35px 0px 20px hsl(217, 54%, 9.77%);
+}
+
