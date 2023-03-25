@@ -31,4 +31,4 @@
 
 ### What I learned
 
-"I discovered that I have some difficulty with stacking elements or overlaying them on top of each other. As a result, I have been searching on Google for the best practices on how to accomplish this effectively."
+"I discovered that I have bit difficulty with stacking elements or overlaying them on top of each other. As a result, I have been searching on Google for the best practices on how to accomplish this effectively."
